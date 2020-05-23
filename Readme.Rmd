@@ -1,0 +1,28 @@
+## Getting and Cleaning Data - Final project
+
+### Explanation of the process
+
+I separated the script in six parts:
+
+- In the first part of the script, I loaded all the data sets I needed into R.
+- In the second I added the variables names and combined (cbind) measurements, subjects and activities ids.
+- In the third part, I used the left join of the merge function to add the names of the activities.
+- In the fourth part, I combined the two datasets, train and test.
+- In the fifth part, I extracted the variables related with the mean and std, also the activities and subjects.
+- In the last part, I calculated the mean after grouping.
+
+I chose to merge the train and test datasets when both datasets were completed with their correspondent variables names and additional columns, instead merge it at the beginning.
+
+In total I added three columns to the original dataset. I run the same process for both, train and test datasets.
+Finally, I merged two datasets.
+
+
+
+
+
+
+
+
+
+
+
