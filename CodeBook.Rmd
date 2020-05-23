@@ -1,0 +1,38 @@
+
+## Getting and Cleaning Data - Final project
+
+### Variables:
+
+x_test_train: the final tidy dataset of the point 4.
+x: the dataset of the point 5.
+x_test_table, x_train_table: the main original tables
+y_test_table, y_train_table: tables with the total activities by activities ID
+features, activity, and subjects tables, as indicated in their names.
+
+### Processes
+
+Instead merge the test and training data in the first place, I work first in each dataset separately, and finally, merged the two datasets.
+
+1) First, I changed the columns names using the features table.
+2) I added the activities IDs in an aditional column
+3) I added the activities names, using a left join of the function merge
+4) I added the subjects
+5) I merged both datasets, test and train
+6) Calculated the point five of the requirements.
+
+In total I added three columns to the original dataset. I run the same process for both, train and test datasets.
+Finally, I merged two datasets.
+
+In order to fulfill the requirements of the project, I extracted the variables than I needed to calculate the las question.
+So, I extracted the variables related with the mean, std, activities, and subjects. After that, grouped the dataset and aplied
+the mean inside a summarize function.
+
+
+
+
+
+
+
+
+
+
